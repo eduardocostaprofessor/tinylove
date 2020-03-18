@@ -1,0 +1,188 @@
+/* fontes do google */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,400&display=swap');
+/* icones font awesome */
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* celular */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-image: url(../imagens/header-background.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position-x: -150px;
+}
+
+header #header-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+    color: white;
+    background-color: #bb4e43;
+    opacity: 0.90;
+}
+
+header #header-box h1 {
+    margin-top: 20px;
+    font-weight: 900;
+}
+
+header #header-box figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header #header-box figure img {
+    width: 85px;
+}
+
+header #header-box figure figcaption {
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+header #header-box #icones-sociais {
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    margin-top: 20px;
+}
+
+header #header-box h2 {
+    width: 80%;
+    margin-top: 20px;
+    font-size: 23px;
+    line-height: 38px;
+    text-align: center;
+    font-weight: 400;
+}
+
+header #header-box p {
+    display: none;
+}
+
+header #icones-loja {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 20px;
+}
+
+header #icones-loja img {
+    width: 125px;
+}
+
+/* tablet */
+
+@media screen and (min-width: 768px) {
+    header {
+        background-size: 120% 120%;
+    }
+    header #header-box figure img {
+        width: 120px;
+    }
+    header #header-box figure figcaption {
+        font-size: 20px;
+    }
+    header #header-box h1 {
+        font-size: 45px;
+    }
+    header #header-box #icones-sociais {
+        width: 15%;
+        font-size: 25px;
+    }
+    header #header-box h2 {
+        font-size: 35px;
+    }
+    header #header-box p {
+        display: block;
+        width: 80%;
+        margin-top: 20px;
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 400;
+    }
+    header #icones-loja {
+        width: 65%;
+    }
+    header #icones-loja img {
+        width: 190px;
+    }
+}
+
+/* desktop mais antigo - opcional */
+
+@media screen and (min-width: 992px) {
+    header {
+        background-position-x: 0;
+        background-size: 100%;
+        width: 100%;
+        height: 400px;
+        border-bottom: 5px solid #bb4e43;
+        /* border: 10px solid green; */
+    }
+    header #header-box {
+        background-color: transparent;
+    }
+    header #header-box figure img {
+        width: 45px;
+    }
+    header #header-box figure figcaption {
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    header #header-box h1 {
+        margin-top: 10px;
+        font-size: 30px;
+    }
+    header #header-box #icones-sociais {
+        width: 70px;
+        margin-top: 10px;
+    }
+    header #header-box #icones-sociais i {
+        font-size: 16px;
+        font-weight: 700;
+    }
+    header #header-box h2 {
+        width: 450px;
+        margin-top: 50px;
+        font-size: 20px;
+        /* border: 1px solid white; */
+        font-weight: 900;
+        text-align: left;
+        margin-left: 445px;
+    }
+    header #header-box p {
+        /* border: 1px solid white; */
+        width: 450px;
+        margin-left: 445px;
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 10px;
+    }
+
+    header #icones-loja {
+        max-width: 210px;
+        margin-left: 200px;
+    }
+    header #icones-loja img {
+        width: 100px;
+    }
+}
+
+/* telas largas */
+
+@media screen and (min-width: 1200px) {}
