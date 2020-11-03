@@ -1,34 +1,202 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tiny Love Project</title>
+    <title>Tiny Love</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-    <header>
-        <div id="header-box">
-            <figure id="logotipo">
-                <img src="./imagens/logo.png" alt="">
-                <figcaption>INTRODUCING</figcaption>
-            </figure>
+    <div id="container">
+        <header>
+            <div class="fundo">
+                <div id="logo-box">
+                    <img src="./imagens/logotipo.png" alt="">
 
-            <h1>TinyLove</h1>
-            <div id="icones-sociais">
-                <i class="far fa-envelope"></i>
-                <i class="fab fa-facebook-f"></i>
-                <i class="fab fa-twitter"></i>
+                    <span>Introducing</span>
+                </div>
+
+                <h1>TinyLove</h1>
+                <div id="social-icons">
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                </div>
+
+                <h2>Enticing statement goes here</h2>
+
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores aut dignissimos itaque perferendis,
+                    nobis blanditiis, fugit accusantium dolorem porro dolorum recusandae iste autem quisquam sint!
+                    Voluptas quia at maxime a!</p>
+
+                <div id="lojas">
+                    <img src="./imagens/hero__button-app-android.png" alt="Google Play">
+                    <img src="./imagens/hero__button-app-ios.png" alt="Apple Store">
+                </div>
+
             </div>
+        </header>
 
-            <h2>Enticing statement goes here</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, autem! Amet, qui. Nemo quis in id maxime ipsam. Neque repellendus sed temporibus, aperiam nobis quod aliquam accusamus expedita? Officia, et?</p>
-            <div id="icones-loja">
-                <img src="./imagens/android.png" alt="Google Play">
-                <img src="./imagens/ios.png" alt="Play Store">
 
-            </div>
-        </div>
-    </header>
+        <section id="next-generation">
+            <h2>It's the next generation of location based networking</h2>
+
+            <article>
+                <i class="fas fa-database"></i>
+                <h3>Section Title</h3>
+                <h4>Heading of this section</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam hic laudantium dignissimos itaque
+                    sunt.</p>
+            </article>
+
+            <article>
+                <i class="fas fa-user-circle"></i>
+                <h3>Section Title</h3>
+                <h4>Heading of this section</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam hic laudantium dignissimos itaque
+                    sunt.</p>
+            </article>
+
+            <article>
+                <i class="fas fa-file-video"></i>
+                <h3>Section Title</h3>
+                <h4>Heading of this section</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam hic laudantium dignissimos itaque
+                    sunt.</p>
+            </article>
+
+        </section>
+
+
+        <!-- See how it works -->
+        <section id="its-works">
+            <h2>See how it works</h2>
+
+            <!-- flex container -->
+            <article>
+                <!-- flex items -->
+                <div class="heading-goes">
+                    <!-- flex container -->
+                    <i class="fas fa-pen-square"></i><!-- flex items -->
+                    <div>
+                        <!-- flex items -->
+                        <h3>Heading goes here</h3>
+                        <p>
+
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad commodi obcaecati rem nemo modi.
+                            Amet
+                            officiis quia et repellendus consectetur. Sunt vitae non quas in id commodi eius pariatur
+                            modi.
+                            
+                        </p>
+                    </div>
+                </div>
+                <img src="./imagens/celular.png" alt="CELULAR">
+            </article>
+
+            <!-- flex container -->
+            <article class="inverso">
+                <!-- flex items -->
+                <div class="heading-goes">
+                    <!-- flex container -->
+                    <i class="fas fa-pen-square"></i><!-- flex items -->
+                    <div>
+                        <!-- flex items -->
+                        <h3>Heading goes here</h3>
+                        <p>
+
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad commodi obcaecati rem nemo modi.
+                            Amet
+                            officiis quia et repellendus consectetur. Sunt vitae non quas in id commodi eius pariatur
+                            modi.
+                            
+                        </p>
+                    </div>
+                </div>
+                <img src="./imagens/celular-inverso.png" alt="CELULAR">
+            </article>
+
+            <!-- flex container -->
+            <article>
+                <!-- flex items -->
+                <div class="heading-goes">
+                    <!-- flex container -->
+                    <i class="fas fa-pen-square"></i><!-- flex items -->
+                    <div>
+                        <!-- flex items -->
+                        <h3>Heading goes here</h3>
+                        <p>
+
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad commodi obcaecati rem nemo modi.
+                            Amet
+                            officiis quia et repellendus consectetur. Sunt vitae non quas in id commodi eius pariatur
+                            modi.
+                            
+                        </p>
+                    </div>
+                </div>
+                <img src="./imagens/celular-3.png" alt="CELULAR">
+            </article>
+        </section>
+
+        <section id="contato">
+            <h2>Get it touch</h2>
+
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" autocomplete="off" required>
+                
+                <label for="email">Email Address</label>
+                <input type="text" name="email" id="email" autocomplete="off" required>
+                
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" required>
+                
+                <label for="message">Message</label>
+                <textarea id="message" required></textarea>
+
+                <button onclick="saudacao()">Submit</button>
+                <button onclick="mudarCor()">Mudar Cor</button>
+            </form>
+        </section>
+        
+        <footer>
+            <p>&copy; Tinylove 2020</p>
+        </footer>
+    </div> <!-- fim do container -->
+
+    <script>
+        function mudarCor(){
+            // background-color: #b34334;
+            event.preventDefault();
+            alert('Para mudar a cor clique em ok!');
+
+            document.getElementById('contato').style.backgroundColor = '#000';
+        }
+        function saudacao() {
+            event.preventDefault();//para o submit do formulário 
+            let nome = document.getElementById('name').value;
+            let email = document.getElementById('email').value;
+            let assunto = document.getElementById('subject').value;
+            let mensagem = document.getElementById('message').value;
+            
+            if( 
+                nome == '' || email == '' || assunto == '' || mensagem == ''  
+            ){
+                alert('Preencha todos os campos');
+            } else {
+               alert('Postando os dados ...'); 
+            }
+
+            // console.log(nome);
+            // console.log(email);
+            // console.log(assunto);
+            // console.log(mensagem);
+        }    
+    </script>
 </body>
+
 </html>
